@@ -1,0 +1,99 @@
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 0px;
+    margin: 0px
+}
+
+nav{
+    padding: 4px;
+    border-bottom: 1px solid rgb(218, 218, 218);
+    background-color: white;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav span{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav img{
+    height: 40px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 10px;
+    height: 800px;
+    align-items: center;
+}
+
+main img{
+    height: 600px;
+    border-radius: 5px;
+}
+
+.aboutArticle{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.aboutArticle h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 8px;
+}
+.titelDisc{
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+.aboutArticle span{
+    font-family: sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.rating{
+    height: 18px;
+}
+
+.preisUndVersand{
+    display: flex;
+    margin-top: 40px;
+}
+
+.preis{
+    color: rgb(90, 90, 90);
+}
+
+.color{
+    border-radius: 34px;
+    width: 34px;
+    height: 34px;
+    background-color: black;
+}
+
+.kaufenBtn{
+    margin: 20px;
+    display: flex;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.kaufenBtn a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+}
+
+.kaufenBtn:hover{
+    background-color: rgb(53, 53, 53);
+    cursor: pointer;
+    transition: border .3s cubic-bezier(.39,.575,.565,1),box-shadow .3s cubic-bezier(.39,.575,.565,1),color .3s cubic-bezier(.39,.575,.565,1),background .3s cubic-bezier(.39,.575,.565,1),box-shadow .3s cubic-bezier(.39,.575,.565,1);
+}
