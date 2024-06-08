@@ -24,7 +24,7 @@ body{
         display: flex !important;
     }
     .kaufenBtn a{
-        border-radius: 30px;
+        border-radius: 30px !important;
     }
 }
 a{
