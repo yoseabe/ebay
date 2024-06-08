@@ -71,7 +71,6 @@ main{
 
 main img{
     height: 600px;
-    border-radius: 5px;
 }
 
 .aboutArticle{
@@ -145,7 +144,6 @@ main img{
 }
 .moreImgs{
     background-color: black;
-    border-radius: 5px;
     margin-bottom: 14px;
     height: 400px;
     
