@@ -17,7 +17,12 @@ body{
         justify-content: center !important;
 
     }
-
+    .kaufBtn{
+        margin-top: 30px !important;
+        width: 100% !important;
+        align-items: center !important;
+        display: flex !important;
+    }
 }
 a{
     text-decoration: none;
